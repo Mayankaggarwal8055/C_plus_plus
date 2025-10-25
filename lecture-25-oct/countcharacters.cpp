@@ -12,35 +12,32 @@ int main()
     int digits = 0;
     int special = 0;
 
-    while (cin >> chs)
+    while (chs = cin.get())
     {
-
-        if (chs != '$')
+        if (chs == '$')
         {
-            if (chs >= 65 and chs <= 90)
-            {
-                uppercase++;
-            }
-            else if (chs >= 97 and chs <= 122)
-            {
-                lowercase++;
-            }
-            else if (chs >= 48 and chs <= 57)
-            {
-                digits++;
-            }
-            else if (chs == 32 or chs >= 9 or chs <= 13)
-            {
-                whitespaces++;
-            }
-            else
-            {
-                special++;
-            }
+            break;
+        }
+
+        if (chs >= 65 and chs <= 90)
+        {
+            uppercase++;
+        }
+        else if (chs >= 97 and chs <= 122)
+        {
+            lowercase++;
+        }
+        else if (chs >= 48 and chs <= 57)
+        {
+            digits++;
+        }
+        else if (chs == ' ' or chs == '\n' or chs == '\t')
+        {
+            whitespaces++;
         }
         else
         {
-            break;
+            special++;
         }
     }
 
