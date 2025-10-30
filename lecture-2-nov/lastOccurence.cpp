@@ -13,7 +13,7 @@ int main()
 
     int i;
 
-    for (int i = n - 1; i >= 0; i--)
+    for ( i = n - 1; i >= 0; i--)
     {
         if (arr[i] == t)
         {
@@ -24,7 +24,7 @@ int main()
 
     if (i == -1)
     {
-        cout << t << " not found" << "output is -1 " <<  endl;
+        cout << t << " not found" << " output is -1 " <<  endl;
     }
 
     return 0;
