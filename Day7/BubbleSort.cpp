@@ -6,12 +6,20 @@ void bubbleSort(int arr[], int n)
 {
     for (int i = 1; i <= n - 1; i++)
     {
+
+        bool flag = false;
         for (int j = 0; j < n - i; j++)
         {
             if (arr[j] > arr[j + 1])
             {
                 swap(arr[j], arr[j + 1]);
+                bool flag = true;
             }
+        }
+
+        if (flag == false)
+        {
+            break;
         }
     }
 }
