@@ -21,7 +21,7 @@ void bubbleSort(int arr[], int n)
         {
             break;
         }
-    }
+        }
 }
 
 int main()
