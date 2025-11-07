@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int binarySearch(int arr[], int n, int t)
-{
+int FirstOccurence(int arr[], int n, int t){
     int s = 0;
     int e = n - 1;
     int ans = -1;
@@ -41,7 +40,7 @@ int main()
     int t;
     cin >> t;
 
-    cout << binarySearch(arr, n, t);
+    cout << FirstOccurence(arr, n, t);
 
     return 0;
 }
