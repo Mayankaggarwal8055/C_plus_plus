@@ -18,9 +18,9 @@ int main()
 
     sort(a.begin(), a.end());
 
-    for (int x : a)
+    for (int i = 0; i < n; i++)
     {
-        cout << x;
+        cout << a[i];
     }
 
     return 0;
