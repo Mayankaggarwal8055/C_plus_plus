@@ -7,7 +7,7 @@ int main() {
 
     string magnet;
     cin >> magnet;  // read first magnet as string
-    int groups = 1;
+    int groups = 1; 
 
     for (int i = 1; i < n; i++) {
         string current;
