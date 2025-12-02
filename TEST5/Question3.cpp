@@ -30,7 +30,7 @@ int main()
         if (a[i] + a[j] <= x)
         {
             i++;
-            j--;
+            j--;  
         }
         else
         {
