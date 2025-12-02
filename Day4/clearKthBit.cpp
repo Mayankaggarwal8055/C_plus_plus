@@ -16,4 +16,4 @@ int main()
     cout << (n ^ mask);
 
     return 0;
-}
+}   
