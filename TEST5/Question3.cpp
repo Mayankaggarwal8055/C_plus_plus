@@ -23,7 +23,7 @@ int main()
 
     int i = 0;
     int j = n - 1;
-    int gondola = 0;
+    int gondola = 0;   
 
     while (i <= j)
     {
