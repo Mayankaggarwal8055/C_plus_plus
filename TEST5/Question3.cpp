@@ -26,7 +26,7 @@ int main()
     int gondola = 0;   
 
     while (i <= j)
-    {
+    { 
         if (a[i] + a[j] <= x)
         {
             i++;
