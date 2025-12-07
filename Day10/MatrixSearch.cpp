@@ -6,9 +6,9 @@ using namespace std;
 bool MatrixSearch(int arr[][3], int m, int n, int t)
 {
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < m; i++)
     {
-        for (int j = 0; j < m; j++)
+        for (int j = 0; j < n; j++)
         {
 
             if (arr[i][j] == t)
