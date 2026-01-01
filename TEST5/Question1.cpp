@@ -14,7 +14,7 @@ int main()
     int total = 0;
 
     for (int i = 0; i < n; i++)
-    {
+    { 
         cin >> a[i];
         total += a[i];
     }

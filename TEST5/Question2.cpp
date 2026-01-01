@@ -16,7 +16,7 @@ int main()
     {
         cin >> a[i];
     }
-
+ 
     sort(a.begin(), a.end());
 
     int currentWaitingTime = 0;
