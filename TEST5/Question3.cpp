@@ -18,7 +18,7 @@ int main()
     {
         cin >> a[i];
     }
-
+ 
     sort(a.begin(), a.end());
 
     int i = 0;
