@@ -11,6 +11,8 @@ int f(int x[], int n, int i)
         return x[n - 1];
     }
 
+    // recursive case
+
     int A = f(x, n, i + 1);
 
     return x[i] + A;
