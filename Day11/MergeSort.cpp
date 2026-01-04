@@ -13,7 +13,7 @@ void merge(int arr[], int s, int m, int e)
 
     while (i <= m && j <= e)
     {
-        if (arr[i] < arr[j])
+        if (arr[i] <= arr[j])
         {
             temp[k] = arr[i];
             i++;
