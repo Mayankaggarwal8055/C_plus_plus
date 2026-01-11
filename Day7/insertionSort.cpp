@@ -17,7 +17,7 @@ void selectionSort(int arr[], int n)
             }
         }
 
-        arr[j + 1] = key;
+        arr[j + 1] = key; 
     }
 }
 
