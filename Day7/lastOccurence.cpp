@@ -17,7 +17,7 @@ int lastOccurence(int arr[], int n, int t)
         {
             ans = m;
             s = m + 1;
-        }
+        }  
         else if (t < arr[m])
         { 
             e = m - 1;
@@ -26,7 +26,7 @@ int lastOccurence(int arr[], int n, int t)
         {
             s = m + 1;
         }
-    }
+    } 
 
     return ans;
 }
