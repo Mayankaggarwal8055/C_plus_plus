@@ -14,7 +14,7 @@ int lastOccurence(int arr[], int n, int t)
         int m = s + (e - s) / 2;
 
         if (arr[m] == t)
-        {
+        { 
             ans = m;
             s = m + 1;
         }  
