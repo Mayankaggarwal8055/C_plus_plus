@@ -23,7 +23,7 @@ int lastOccurence(int arr[], int n, int t)
             e = m - 1;
         }
         else
-        {
+        { 
             s = m + 1;
         }
     } 
