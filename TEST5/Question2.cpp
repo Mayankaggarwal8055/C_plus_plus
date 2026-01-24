@@ -15,22 +15,22 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
-    }
- 
+    } 
+
     sort(a.begin(), a.end());
 
     int currentWaitingTime = 0;
     int count = 0;
 
     for (int i = 0; i < n; i++)
-    { 
+    {
         if (currentWaitingTime <= a[i])
         {
             currentWaitingTime += a[i];
             count++;
         }
         else
-        { 
+        {
             continue;
         }
     }
