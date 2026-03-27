@@ -22,7 +22,7 @@ int main()
     int currentWaitingTime = 0;
     int count = 0;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) 
     {
         if (currentWaitingTime <= a[i])
         {
