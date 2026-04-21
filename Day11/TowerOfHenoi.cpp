@@ -11,7 +11,7 @@ void f(int n, char src, char dst, char hlp)
         return;
     }
 
-    // step 1
+    // step 1 
 
     f(n - 1, src, hlp, dst);
 
